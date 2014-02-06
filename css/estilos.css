@@ -1,0 +1,292 @@
+/* 
+color logo: #6da9ed;
+ */
+
+body {
+	font: 16px/20px 'Open Sans', Arial, Helvetica, sans-serif
+
+}
+
+header {
+	background: #2e64a1;
+	padding: 1em 0;
+}
+
+header .titulo {
+	bottom: .8em;
+	color: white;
+	font-size: 2.5em;
+	font-style: italic;
+	font-weight: 100;
+	display: inline-block;
+	margin-left: 0.3em;
+	position: relative;
+}
+
+h2 {
+	font-weight: 400;
+	color: #2e64a1;
+	margin: 0 0 1em;
+}
+
+nav{
+	background: #6da9ed;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 20%;
+}
+
+nav ul li a {
+	display:  block;
+	padding: .2em .4em;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	transition: all 0.3s ease-out;
+	position: relative;
+}
+
+nav ul li a.activo {
+	background: #4c76a5;
+}
+
+nav ul li a.activo:after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	width: 0;
+	height: 0;
+	border: 1em solid transparent;
+	border-top-color: #4c76a5;
+	left: 50%;
+	margin-left: -1em;
+}
+
+nav ul li a:hover {
+	background: rgba(0,0,0,0.3);
+}
+
+footer {
+	background: #ccc;
+	clear: both;
+	color: #333;
+	font-size: .7em;
+	font-style: italic;
+	text-align: center;
+	padding: 3em 0;
+}
+
+footer p {
+	margin: 0;
+}
+
+/*
+	CONTACTO
+*/
+.columna{
+	width: 50%;
+	padding: 0 .625em;
+	/* IE8+ */
+	box-sizing: border-box; /* cambia el modelo de cajas. Buscar explicacion en Mozilla Developer Network */
+	margin: 2em 0;
+}
+
+
+.columna.left {
+	border-right: 1px solid #ddd;
+}
+
+.columna.right p {
+	font-size: 0.8em;
+}
+
+.columna.right ul li {
+	font-size: .8em;
+}
+
+.formulario {}
+
+.formulario label{
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	width: 16%;
+}
+
+.formulario input, .formulario textarea {
+	background: #ddd;
+	border-radius: 5px;
+	border: 1px solid #999;
+	font-size: .8em;
+	padding: .4em .6em;
+	width: 100%;
+	width: 80%;
+}
+
+.formulario textarea {
+	height: 10em;
+	resize: none;
+}
+
+.formulario .acciones {
+	text-align: right;
+}
+
+.formulario input[type="submit"] {
+	background: #6da9ed;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	color: white;
+	font-size: 1em;
+	padding: .4em 2em;
+	text-align: center;
+	width: auto;
+}
+
+/*
+*	SERVICIOS
+*/
+
+.servicio {
+	border: 1px solid #ddd;
+	border-radius: .7em;
+	margin: 1em 0;
+	box-sizing: border-box;
+	padding: 1em;
+	overflow: hidden;
+}
+
+.servicio:first-child {
+	margin-top: 2em;
+}
+
+.servicio .info {
+	width: 75%;
+}
+
+.servicio .info h4 {
+	color: #2e64a1;
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: 500;
+	margin: 0 0 1em;
+	border-bottom: 1px solid #2e64a1;
+	padding-bottom: 0.5em;
+}
+
+.servicio figure {
+	display: inline-block;
+}
+
+.servicio figure img {
+	border-radius: .8em;
+}
+
+.servicio .info p {
+	font-size: .8em;
+	line-height: 1.2em;
+}
+
+.servicio:nth-child(odd) figure {
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+.servicio:nth-child(odd) .info {
+	float: right;
+}
+
+.servicio:nth-child(even) figure {
+	float: right;
+	margin: 0 0 0 1em;
+}
+
+.servicio:nth-child(even) .info {
+	float: left;
+}
+
+/*
+* NOSOTROS
+*/
+.historia {
+	margin-top: 2em;
+}
+
+.historia p {
+	font-size: .8em;
+}
+
+.personas {
+	margin-bottom: 2em;
+	overflow: hidden;
+}
+
+.persona {
+	width: 18%;
+	float: left;
+	margin-left: 2.25%;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: .25em;
+}
+
+.persona figure {
+	text-align: center;
+	margin: .8em 0 1em;
+}
+
+.persona figure img {
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.persona h5, .persona h6{
+	text-align: center;
+	font-weight: normal;
+	color: #2e64a1;
+	margin: 0;
+}
+
+.persona h5 {
+	font-size: .9em;
+}
+
+.persona h6 {
+	font-size: .8em;
+	margin-bottom: 1em;
+	font-style: italic;
+}
+
+.persona p {
+	font-size: 0.7em;
+	margin: 0 1em 1em;
+	color: #444;
+}
+
+.persona:first-child {
+	margin-left: 0;
+}
+ 
+ /*
+	HELPERS
+ */
+
+.holder {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
