@@ -273,6 +273,33 @@ footer p {
 .persona:first-child {
 	margin-left: 0;
 }
+
+/*
+	GALERIA
+*/
+
+.galeria {
+	overflow: hidden;
+}
+
+.galeria h2 {
+	margin: 2em 0 1em;
+}
+
+.galeria .foto {
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	width: 16.8%;
+	margin: 1em 1%;
+	border: 1px solid #ddd;
+	padding: .3em;
+}
+
+.galeria .foto img {
+	display: block;
+	width: 100%;
+}
  
  /*
 	HELPERS
