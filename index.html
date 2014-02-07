@@ -31,10 +31,41 @@
 		</div>	
 	</nav>
 	<section class="contenedor holder">
-		<p>Hola</p>
+		<div class="homeimg">
+			<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-speed="1500">
+				<!-- empty element for overlay -->
+				<div class="cycle-overlay"></div>
+				<img src="img/home/img01.jpg" data-cycle-title="Avión" data-cycle-desc="Sonnenberg Gardens">
+				<img src="img/home/img02.jpg" data-cycle-title="Camión" data-cycle-desc="Muir Woods National Monument">
+				<img src="img/home/img03.jpg" data-cycle-title="Barco"  data-cycle-desc="San Franscisco Bay">
+				<img src="img/home/img04.jpg" data-cycle-title="Ruta" data-cycle-desc="Adirondack State Park">
+				<img src="img/home/img05.jpg" data-cycle-title="Depósito" data-cycle-desc="Adirondack State Park">
+			</div>
+		</div>
+		<div class="columnas">
+			<div class="bienvenidos left">
+				<h2>Bienvenidos</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed justo urna, semper quis accumsan nec, scelerisque ac velit. Fusce cursus, odio vitae pulvinar hendrerit, sapien ligula consectetur dui, at rutrum mauris odio sit amet purus. Vestibulum sit amet tortor quam. Phasellus et quam vel dui semper porttitor.</p>
+			</div>
+			<div class="testimonios right">
+					<h2>Testimonios</h2>
+					<div class="testimonios cycle-slideshow" data-cycle-fx="fade" data- data-cycle-speed="1000" data-cycle-slides="div">
+						<div class="testimonio">
+							<span class="cita">Simplemente excelente</span>
+							<span class="autor">Juan Gomez - Zapatos.com</span>
+						</div>
+						<div class="testimonio">
+							<span class="cita">Todos nuestros envios simplificados</span>
+							<span class="autor">Pedrio Sanchez - Hewlet Packard</span>
+						</div>
+					</div>
+				</div>
+		</div>
 	</section>
 	<footer>
 		<p class="copyright">Copyright &copy; 2014 - Transportes X</p>
 	</footer>
+	<script type="text/javascript" src="js/libs/jquery/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/libs/cycle/jquery.cycle2.min.js"></script>
 </body>
 </html>

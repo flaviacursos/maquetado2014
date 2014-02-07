@@ -83,10 +83,85 @@ footer {
 	font-style: italic;
 	text-align: center;
 	padding: 3em 0;
+	margin-top: 2em;
 }
 
 footer p {
 	margin: 0;
+}
+
+/*
+	HOME
+*/
+.columnas {
+	overflow: hidden;
+	margin: 2em 0;
+}
+
+.bienvenidos, .testimonios {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.testimonios {
+	width: 25%;
+}
+
+.bienvenidos {
+	width: 75%;
+	padding-right: 2em;
+}
+
+.bienvenidos p{
+	font-size: 1.3em;
+}
+
+.testimonios {
+	background: #ddd;
+	box-sizing: border-box;
+}
+
+.testimonio {
+	padding: 1em;
+}
+
+.testimonio .cita {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.4em;
+	display: block;
+}
+
+.testimonio .autor {
+	font-size: .7em;
+	display: block;
+	text-align: center;
+	margin: 1em 0;
+}
+
+.testimonio .cita:before, .testimonio .cita:after {
+	content: '"';
+}
+
+.homeimg {
+	clear: both;
+	margin-bottom: 1.5em;
+}
+
+.homeimg .cycle-slideshow {
+	position: relative;
+	overflow: hidden;
+}
+
+.homeimg .cycle-slideshow .cycle-overlay{
+	background: rgba(0,0,0,0.75);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	z-index: 600;
+	padding: 1em;
+	font-size: .8em;
 }
 
 /*
