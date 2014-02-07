@@ -116,7 +116,7 @@ footer p {
 	font-size: 1.3em;
 }
 
-.testimonios {
+.testimonios .cycle-slideshow{
 	background: #ddd;
 	box-sizing: border-box;
 }
