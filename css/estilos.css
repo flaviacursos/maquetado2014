@@ -31,6 +31,7 @@ h2 {
 
 nav{
 	background: #6da9ed;
+	margin-bottom: 2em;
 }
 
 nav ul{
@@ -112,12 +113,9 @@ footer p {
 	font-size: .8em;
 }
 
-.formulario {}
-
 .formulario label{
 	display: inline-block;
 	vertical-align: top;
-	text-align: right;
 	width: 16%;
 }
 
@@ -215,9 +213,6 @@ footer p {
 /*
 * NOSOTROS
 */
-.historia {
-	margin-top: 2em;
-}
 
 .historia p {
 	font-size: .8em;
@@ -280,10 +275,6 @@ footer p {
 
 .galeria {
 	overflow: hidden;
-}
-
-.galeria h2 {
-	margin: 2em 0 1em;
 }
 
 .galeria .foto {
